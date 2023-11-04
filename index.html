@@ -9,48 +9,55 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-    <nav class="fixed-top pp bg-white">
-        <div class=" navigation d-flex align-items-center justify-content-around">
-            <div class="d-flex align-items-center">
-         <img src="./asserts/Final Logo.svg">
-         <div class="me-10">AccioJob</div>
-         <div class="vertical-line m-2"></div>
-         <img src="./asserts/NSDC_Logo_in_clear_background 1.png" class="d-flex">
-            </div>
-            <ul class="navbar-nav">
-              <li class="nav-item dropdown">
-                <a class=" courses nav-link dropdown-toggle text-dark" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Courses
-                </a>
-                <ul class="dropdown-menu dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">MERN Full stack development</a></li>
-                  <li><a class="dropdown-item" href="#">JAVA full stack development</a></li>
-                  <li><a class="dropdown-item" href="#">Data Analytics</a></li>
-                </ul>
-              </li>
-            </ul>
-                <a class=" text-decoration-none text-dark" href="#">Acciojob Reviews</a>
-                <a class="links text-dark" href="#">Scholarship test</a>
-            <ul class="anil navbar-nav">
-                <li class="nav-item dropdown">
-                    <a class="more nav-link dropdown-toggle text-dark" aria-labelledby="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown"  aria-expanded="false" href="#">More</a>
-                    <ul class="dropdown-menu dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
-                       <li class="dropdown-item" href="#">Career Guidance</li>
-                       <li class="dropdown-item" href="#">Events</li>
-                       <li class="dropdown-item" href="#">Blogs</li>
-                       <li class="dropdown-item" href="#">Refer & Earn</li>
-                       <li class="dropdown-item" href="#">Hire from us</li>
-                       <li class="dropdown-item" href="#">Become a Mentor</li>
-                    </ul>
-                </li>
-            </ul>
-            <button class="btn btn-outline-primary rounded-2 login">Login</button>
-        </div>
-        </div>
-            <div class="bar">
-            <div class=" bottom-bar d-flex justify-content-center align-items-center bg-primary w-10vw text-white p-2">Next Batch starts in 22 days, Hurry!</div>
+  <header>
+    <nav class=" fixed-top pp bg-white flex-wrap" id="mob">
+        <div class="d-flex justify-content-md align-items-center p-3 overflow-auto">
+          
+            <div class="div1 d-flex align-items-center justify-content-around  me-auto flex-shrink-5">
+              <img src="./asserts/Final Logo.svg" class="">
+              <div class="ms-4">AccioJob</div>
+              <img src="./asserts/Line 8VTL.svg" class="mx-1">
+              <img src="./asserts/NSDC_Logo_in_clear_background 1.png" class="d-flex ms-2">
+                 </div>
+          
+                 <div class="div2 d-flex ms-auto pe-4">
+                  <ul class="navbar-nav">
+                      <li class="nav-item dropdown">
+                          <a class="courses nav-link dropdown-toggle text-dark me-4" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Courses
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                              <li><a class="dropdown-item" href="#">MERN Full stack development</a></li>
+                              <li><a class="dropdown-item" href="#">JAVA full stack development</a></li>
+                              <li><a class="dropdown-item" href="#">Data Analytics</a></li>
+                          </ul>
+                      </li>
+              
+                      <li><a class="text-decoration-none text-dark me-4" href="#">Acciojob Reviews</a></li>
+                      <li><a class="links text-dark text-decoration-none me-4" href="#">Scholarship test</a></li>
+              
+                      <li class="nav-item dropdown">
+                          <a class="more nav-link dropdown-toggle text-dark me-4" aria-labelledby="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">More</a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                              <li class="dropdown-item" href="#">Career Guidance</li>
+                              <li class="dropdown-item" href="#">Events</li>
+                              <li class="dropdown-item" href="#">Blogs</li>
+                              <li class="dropdown-item" href="#">Refer & Earn</li>
+                              <li class="dropdown-item" href="#">Hire from us</li>
+                              <li class="dropdown-item" href="#">Become a Mentor</li>
+                          </ul>
+                      </li>
+                  </ul>
+                 
+                  <button class="btn btn-outline-primary rounded-2 login">Login</button>
+                 </div>        
+          </div>
+        
+            <div class="bar position-fixed">
+            <div class=" bottom-bar position-fixed d-flex justify-content-center align-items-center bg-primary w-10vw text-white p-2">Next Batch starts in 22 days, Hurry!</div>
             </div>
     </nav>
+  </header>
     <div class="container ">
     <section class="d-flex hero  justify-content-between align-items-center ms-2 p-5 pb-5 mb-5">
         <div class=" p-10 intro me-5">
@@ -99,7 +106,7 @@
     <br>
     <br>
      
-    <section class="d-flex justify-content-center p-2 mt-5 custom-container">
+    <section class=" comp d-flex justify-content-center p-2 mt-5 custom-container">
       <div class="container d-flex justify-content-center align-items-center">
           
         <div class="border w-md-50 text-center align-items-center p-3 custom-inner-container rounded-3 border-primary">
